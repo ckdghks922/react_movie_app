@@ -1,11 +1,22 @@
 import React from "react";
 
-function App() {
-  return (
-    <div className="App">
-      <h1>Hello!!</h1>
-    </div>
-  );
+class App extends React.Component {
+  state = {
+    isLoading: true,
+    movie: [],
+  };
+
+  componentDidMount() {
+    setTimeout(() => {
+      this.setState({ isLoading: false });
+    }, 5000);
+  }
+
+  render() {
+    const { isLoading } = this.state;
+
+    return <div>{isLoading ? "Loading..." : "We are ready"}</div>;
+  }
 }
 
 export default App;

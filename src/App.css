@@ -1,0 +1,25 @@
+html,
+body,
+#root,
+.container,
+.loader {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: azure;
+}
+
+.loader,
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.movies {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}

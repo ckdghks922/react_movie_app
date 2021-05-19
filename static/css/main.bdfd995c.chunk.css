@@ -1,0 +1,2 @@
+.movie{display:flex;width:45rem;height:25rem;margin:3rem;border:1px solid #000;background-color:beige}.movie>img{margin-right:1rem}.movie-data{display:flex;flex-direction:column}.movie__year{font-size:1.5rem;font-weight:500}.movie__genres{padding-left:1rem;font-size:1.2rem}.movie__summary{font-size:1rem}#root,.container,.loader,body,html{height:100%;width:100%}body{background-color:azure}.loader,.title{align-items:center}.loader,.movies,.title{display:flex;justify-content:center}.movies{flex-wrap:wrap}
+/*# sourceMappingURL=main.bdfd995c.chunk.css.map */

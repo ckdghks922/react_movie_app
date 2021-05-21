@@ -39,6 +39,7 @@ class Home extends React.Component {
               {movies.map((elem) => (
                 <Movie
                   key={elem.id}
+                  id={elem.id}
                   year={elem.year}
                   title={elem.title}
                   summary={elem.summary}
